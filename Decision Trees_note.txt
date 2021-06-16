@@ -1,0 +1,31 @@
+Decession tree is clasification problem solving algoritham.
+It arranges the data in the form of a tree and take the decession from there.
+
+Donot look into the whole data as one a group.devedied into subset.so that we can decession easyly.
+
+we are going to calculate information gain. 
+
+
+Impurity measure:
+Entropy is calculated for a segment , it is measure of impurity.
+
+ Entropy=-p1 log2 p1 - p2 log2 p2
+ 
+ 
+ Model built on train data and validate on test data.
+ 
+ the model works very well on train data( very accuracy on trian data) but if there is any significant difference
+ in test data then it is called overfitting.
+  
+  for exampl train data accuracy is 85% and test data is 50% then it is overfitting issue.
+  
+  If the accuracy is significant different between the train and test data called overfitting.
+  
+  if the train data acurracy is too low then it is underfitting.
+  if the max depth of the tree is too low then it leads to underfitting.
+  If the max depth of the tree is too high then it leads to overfitting
+  
+  we can avoid the overfitting by using pruning paramert.
+  (one of the pruning paramert is maxdepth,max leafe node)
+  
+  finalize the model by highest acurracy on train and matching accuracy on test data.
